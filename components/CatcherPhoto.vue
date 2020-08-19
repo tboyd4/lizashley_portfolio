@@ -8,6 +8,9 @@
         <v-row>
           <v-responsive class="icon-sub">LIZ ASHLEY</v-responsive>
         </v-row>
+        <v-row>
+          <v-responsive class="icon-title">voice over artist</v-responsive>
+        </v-row>
       </v-col>
       <v-col cols="12" md="6">
         <v-img max-height="705" src="/pic1.JPG"></v-img>
@@ -33,5 +36,11 @@ export default {}
   color: #e1655e;
   font-weight: thin;
   font-size: 45px;
+}
+.icon-title {
+  font-family: 'Actor', sans-serif;
+  color: #e1655e;
+  font-weight: thin;
+  font-size: 30px;
 }
 </style>
