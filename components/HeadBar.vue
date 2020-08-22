@@ -3,20 +3,22 @@
         <v-app-bar
       color="white"
       class="font-header"
+      fixed
+      hide-on-scroll
       flat
     >
 
       <v-spacer></v-spacer>
 
-      <v-btn color="main main--text" depressed outlined class="mx-1">
+      <v-btn color="main main--text" @click="$vuetify.goTo('#home')" depressed outlined class="mx-1">
         Home
       </v-btn>
 
-      <v-btn color="main main--text" depressed outlined class="mx-1">
+      <v-btn color="main main--text" @click="$vuetify.goTo('#resume')" depressed outlined class="mx-1">
         Resume
       </v-btn>
 
-      <v-btn color="main main--text" depressed outlined class="mx-1">
+      <v-btn color="main main--text" @click="$vuetify.goTo('#demo')" depressed outlined class="mx-1">
         Demo
       </v-btn>
 

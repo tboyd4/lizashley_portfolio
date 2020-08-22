@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="resume">
     <div class="my-12"></div>
     <div class="my-12"></div>
     <v-row justify="center" align="center">
