@@ -11,6 +11,8 @@
   "dependencies": {
     "howler": "^2.2.0",
     "nuxt": "^2.14.0",
+    "to": "^0.2.9",
+    "upgrade": "^1.1.0",
     "vue-scrollto": "^2.18.2"
   },
   "devDependencies": {
