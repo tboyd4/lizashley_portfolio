@@ -12,7 +12,7 @@
         </v-row>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img max-height="705" src="/pic1.JPG"></v-img>
+        <v-img max-height="705" src="/pic3.JPG"></v-img>
       </v-col>
     </v-row>
   </div>

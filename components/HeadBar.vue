@@ -22,7 +22,7 @@
         Demo
       </v-btn>
 
-      <v-btn color="main main--text" depressed outlined class="mx-1">
+      <v-btn color="main main--text" @click="$vuetify.goTo('#contact')" depressed outlined class="mx-1">
         Contact Me
       </v-btn>
     </v-app-bar>

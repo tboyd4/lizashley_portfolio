@@ -12,6 +12,11 @@
       <demo></demo>
       <div class="my-16"></div>
       <div class="py-16"></div>
+      <contact></contact>
+      <div class="my-16"></div>
+      <div class="py-16"></div>
+      <div class="my-16"></div>
+      <div class="py-16"></div>
     </v-container>
   </v-layout>
 </template>
@@ -20,11 +25,13 @@
 import CatcherPhoto from '../components/CatcherPhoto.vue'
 import Resume from '../components/Resume.vue'
 import Demo from '../components/Demo.vue'
+import Contact from '../components/Contact.vue'
 export default {
   components: {
     CatcherPhoto,
     Resume,
     Demo,
+    Contact
   },
 }
 </script>
