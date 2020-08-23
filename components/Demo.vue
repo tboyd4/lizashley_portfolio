@@ -3,7 +3,12 @@
     <v-row justify="center" align="center">
       <v-col justify="center" align="center" cols="12" md="6">
         <v-row>
-          <v-responsive>Demo Section</v-responsive>
+          <v-btn color="main main--text" depressed outlined class="mx-1">
+            Click for Narrative Demo
+          </v-btn>
+          <v-btn color="main main--text" depressed outlined class="mx-1">
+            Click for Commercial Demo
+          </v-btn>
         </v-row>
       </v-col>
       <v-col cols="12" md="6">
@@ -17,5 +22,4 @@
 export default {}
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
