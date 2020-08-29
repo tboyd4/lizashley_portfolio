@@ -55,6 +55,9 @@ export default {
   }),
 
   methods: {
+    submit() {
+      console.log("hello")
+    }
   },
 }
 </script>

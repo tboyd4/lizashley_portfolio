@@ -8,7 +8,7 @@
             @click="narrPlay"
             depressed
             outlined
-            class="mx-1"
+            class="mx-1 my-3"
           >
             Click for Narrative Demo
           </v-btn>
@@ -17,7 +17,7 @@
             @click="commPlay"
             depressed
             outlined
-            class="mx-1"
+            class="mx-1 my-3"
           >
             Click for Commercial Demo
           </v-btn>
